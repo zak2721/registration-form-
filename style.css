@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(20231124_161709.jpg);
+    background-size: cover;
+
+}
+.container{
+    width: 100%;
+    max-width: 650px;
+    padding: 78px;
+    margin: 0 25px;
+    background-color: rgb(54, 51, 51);
+    border-radius:10px;
+    box-shadow: inset -2px 2px 2px rgb(202, 112, 112);
+
+}
+.form-litle{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    border-bottom: solid 3px white;
+}
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.user-input-box:nth-child(2n){
+    justify-content: end;
+}
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 5px;
+   
+}
+.user-input-box label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0;
+
+}
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0 10px;
+
+}
+.gender-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+.gender-category {
+    margin: 15px 0;
+    color: white;
+
+}
+.gender-category label{
+    padding: 0 20px 0 5px;
+}
+.gender-category label,
+.gender-category input,
+.form.sumbit-btn input{
+    cursor: pointer;
+}
+.form-submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(202, 112, 112);
+    background-color: rgba(101, 168, 118, 0.7);
+}
+.form-submit-btn input:hover{
+    background: rgb(92, 231, 138);
+    color:white;
+}
+  
